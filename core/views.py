@@ -7,4 +7,4 @@ async def contador(request):
         await asyncio.sleep(1)
         print(numero)
 
-    return HttpResponse("Contador finalizado!")
+return HttpResponse("Contador assíncrono finalizado!")
